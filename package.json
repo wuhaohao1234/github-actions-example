@@ -1,0 +1,28 @@
+{
+  "name": "github-actions-example",
+  "version": "1.0.0",
+  "description": "使用github完成的demo",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "dev": "npx tsc -w",
+    "lint": "npx tslint --project tslint.json",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wuhaohao1234/github-actions-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wuhaohao1234/github-actions-example/issues"
+  },
+  "homepage": "https://github.com/wuhaohao1234/github-actions-example#readme",
+  "devDependencies": {
+    "@types/node": "^13.1.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
+  }
+}
